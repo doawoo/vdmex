@@ -1,0 +1,35 @@
+{
+  "classArray" : [
+    "StringElement",
+    "Button",
+    "Slider"
+  ],
+  "keyArray" : [
+    "_ex_id",
+    "CLOCK",
+    "COUNTER"
+  ],
+  "uiBuilder" : {
+    "_ex_id" : {
+      "sendEnabled" : true,
+      "txtField" : {
+        "txt" : "basic_counter"
+      }
+    },
+    "CLOCK" : {
+      "sendEnabled" : true,
+      "toggle" : false,
+      "mtxFlg" : false,
+      "mtxGrp" : "Button Group"
+    },
+    "COUNTER" : {
+      "maxRange" : 17,
+      "minRange" : 0,
+      "val" : 0.0,
+      "publishNorm" : false,
+      "sendEnabled" : true,
+      "publishNormOSCQ" : false
+    },
+    "VVGridSize" : "{-1, -1}"
+  }
+}
